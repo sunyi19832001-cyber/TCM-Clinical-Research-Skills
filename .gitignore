@@ -1,0 +1,19 @@
+# Local private data and caches
+.DS_Store
+.env
+.env.*
+!.env.example
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.sqlite
+*.db
+private/
+data/
+patient_data/
+research_projects/
+*.csv
+*.xlsx
+*.xls
+*.docx
+*.pdf

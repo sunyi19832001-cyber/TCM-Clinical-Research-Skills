@@ -1,0 +1,42 @@
+# Public example only. Copy to a local private file; never commit personal values.
+language: zh-CN
+timezone: Asia/Shanghai
+reporting:
+  daily: true
+  weekly_review: true
+  monthly_review: true
+  show_as_of_timestamp: true
+  require_source_urls: true
+assets:
+  crypto: [BTC, ETH]
+  gold:
+    enabled: true
+    benchmark: "name benchmark and currency before use"
+  us_indices: [Nasdaq-100, S&P 500]
+  china_equities:
+    - "China broad-market indices"
+    - "A-share pre-market/session context"
+  bonds:
+    enabled: true
+  macro:
+    - inflation
+    - central_bank_policy
+    - government_bond_yields
+    - USD_and_real_yields
+analysis:
+  moving_averages: [20, 50, 200]
+  require_sufficient_price_history: true
+  include_drawdown: true
+  include_volatility: true
+  include_valuation_when_appropriate: true
+  include_risk_invalidation: true
+decision_labels:
+  - "可关注 / WATCH"
+  - "可考虑分批买入 / CONSIDER BUYING IN TRANCHES"
+  - "减仓或风险复核 / REDUCE OR REVIEW RISK"
+  - "观望 / NO ACTION"
+privacy:
+  store_personal_balances_here: false
+  store_account_identifiers_here: false
+  store_transactions_here: false
+  store_api_keys_here: false

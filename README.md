@@ -69,3 +69,15 @@ TCM-Clinical-Research-Skills/
 未复制上述项目的源代码、提示词文件或其受许可约束的内容。该项目自身原创内容采用 [MIT License](LICENSE)；引用、复用外部项目内容须分别遵守其原有许可。
 
 欢迎提交 Issue 或 Pull Request。任何改动应优先提升证据可核验性、临床科研方法透明性和使用安全性。
+
+## Related Skill: Investment Monitor
+
+本仓库另含独立的投资监控工作流，覆盖 BTC/ETH、黄金、纳斯达克100与标普500、国内宽基/A股、债券及宏观风险观察。它采用官方来源优先、重要信息交叉核验、指标计算透明、允许“观望”的原则。
+
+- [Investment Monitor Skill](skills/investment-monitor/README.md)
+- [Core instructions](skills/investment-monitor/SKILL.md)
+- [Example configuration](skills/investment-monitor/config.example.yaml)
+- [Daily report template](skills/investment-monitor/examples/daily-report-template.md)
+- [Privacy checklist](skills/investment-monitor/PRIVACY.md)
+
+该 Skill 是通用的信息整理与决策辅助工作流，不是实时行情服务、自动交易程序或收益保证。请勿在公开仓库中提交个人资产、账户、交易记录或密钥。
